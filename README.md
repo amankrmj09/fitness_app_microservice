@@ -1,16 +1,25 @@
 # Fitness Microservice
 
-A simple **Spring Boot** microservice built as part of the **Spring Boot Full Stack AI Microservices Project Course**, showcasing modern microservices architecture with **Kafka**, **Keycloak**, and **OAuth2**.
+A simple **Spring Boot** microservice built as part of the **Spring Boot Full Stack AI Microservices Project**, showcasing modern microservices architecture with **Kafka**, **Keycloak**, and **OAuth2**.
 
 ## Project Overview
 
 This project demonstrates how to build a clean and secure fitness-related microservice using the latest Spring Boot technologies. It serves as a practical example of implementing scalable, event-driven, and well-secured microservices.
 
 ### Key Features
+
 - RESTful APIs for fitness-related operations
 - Secure authentication and authorization using **OAuth2** + **Keycloak**
 - Event-driven architecture with **Apache Kafka**
 - Built with modern Java and Spring Boot stack
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Technologies & Tools](#technologies--tools)
+- [Services](#services)
+  - [User Service](#user-service-userserviceapplication)
+- [Project Focus](#project-focus)
 
 ## Technologies & Tools
 
@@ -22,9 +31,23 @@ This project demonstrates how to build a clean and secure fitness-related micros
 - **API Documentation**: Springdoc OpenAPI / Swagger
 - **Testing**: JUnit 5 + Mockito
 
-## Course Focus
+---
 
-This microservice is developed while following the **Spring Boot Full Stack AI Microservices Project Course**, covering:
+## Services
+
+### User Service (`UserServiceApplication`)
+
+The **User Service** is a Spring Boot-based microservice responsible for managing all user-related operations within the fitness application ecosystem.
+
+#### Responsibilities
+
+- **User Registration** — Handles new user onboarding and account creation
+- **Authentication** — Manages login flows integrated with Keycloak and OAuth2
+- **Profile Management** — Supports reading and updating user profile data
+
+## Project Focus
+
+This microservice is built as part of the **Spring Boot Full Stack AI Microservices Project**, covering:
 
 - Microservices architecture best practices
 - Event-driven systems with Kafka
@@ -32,4 +55,4 @@ This microservice is developed while following the **Spring Boot Full Stack AI M
 
 ---
 
-**Built with ❤️ for learning modern Spring Boot microservices development.**
+**Built with ❤️ for modern Spring Boot microservices development.**
