@@ -1,3 +1,6 @@
 [submodule "user_service"]
 	path = user_service
 	url = https://github.com/amankrmj09/fitness_app_user_service.git
+[submodule "activity_service"]
+	path = activity_service
+	url = https://github.com/amankrmj09/fitness_app_activity_service
