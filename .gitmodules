@@ -4,3 +4,6 @@
 [submodule "activity_service"]
 	path = activity_service
 	url = https://github.com/amankrmj09/fitness_app_activity_service
+[submodule "eureka_server"]
+	path = eureka_server
+	url = https://github.com/amankrmj09/fitness_app_eureka_server
