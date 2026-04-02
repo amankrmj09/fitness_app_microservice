@@ -7,3 +7,6 @@
 [submodule "eureka_server"]
 	path = eureka_server
 	url = https://github.com/amankrmj09/fitness_app_eureka_server
+[submodule "ai_service"]
+	path = ai_service
+	url = https://github.com/amankrmj09/fitness_app_ai_service
